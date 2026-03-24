@@ -1,0 +1,17 @@
+
+
+/* Global Styles */
+.hero-surface {
+    background-image: url('/images/photo1.jpg'); /* Path should be relative to public folder */
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust height as needed */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-surface h1 {
+    color: white; /* Ensure the text is readable */
+}
