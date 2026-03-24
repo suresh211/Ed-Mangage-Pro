@@ -19,3 +19,4 @@ RUN chown -R www-data:www-data storage bootstrap/cache
 EXPOSE 10000
 
 CMD sed -i "s/80/${PORT}/g" /etc/apache2/ports.conf && apache2-foreground
+COPY .docker/vhost.conf /etc/apache2/sites-available/000-default.conf
